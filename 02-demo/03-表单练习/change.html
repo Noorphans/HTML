@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="" method="post">
+    <table align="center">
+      <!-- caption为表格添加标题、简短描述 -->
+      <caption>
+        <h2>欢迎来到修改页面</h2>
+      </caption>
+      <!-- 第一行 -->
+      <tr>
+        <td>姓名：</td>
+        <td><input type="text" placeholder="sally"></td>
+      </tr>
+      <!-- 第二行 -->
+      <tr>
+        <td>性别：</td>
+        <td>
+          <input type="radio" name="sex" id="boy"><label for="boy"> 男士</label>
+          <input type="radio" name="sex" id="girl"><label for="girl"> 女士</label>
+        </td>
+      </tr>
+      <tr>
+        <td>学历：</td>
+        <td>
+          <select>
+            <option>幼儿园</option>
+            <option>小学</option>
+            <option>初中</option>
+            <option>高中</option>
+            <option selected="selected">大学</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>个人描述：</td>
+        <td><textarea></textarea></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="checkbox">不要公开我的个人信息</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="submit" value="保存"> <input type="reset" value="重填"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="login.html" target="_blank">返回登录页面</a></td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
